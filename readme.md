@@ -1,5 +1,5 @@
 # Power Switch Board - B1
-![main](Photos/ELE_PWR_SW_B1 - Main.jpg)
+![main](Photos/ELE_PWR_SW_B1_Main.jpg)
 
 ## Description
 This board serves as a power switch for the robot power supplies. It uses the battery as an input (24 V).
@@ -13,4 +13,4 @@ All outputs are commanded by the ON input, while others are also subject to the 
 
 Every output has a corresponding LED for debug. Motors 1 and 2 are connected to one fuse, Motors 3 and 4 to another one. Both other outputs have reserved fuses.
 
-![ortho](Photos/ELE_PWR_SW_B1 - Ortho.jpg)
+![ortho](Photos/ELE_PWR_SW_B1_Ortho.jpg)
