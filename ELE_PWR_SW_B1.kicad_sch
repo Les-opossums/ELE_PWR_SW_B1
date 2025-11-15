@@ -4,6 +4,12 @@
 	(generator_version "9.0")
 	(uuid "12f888d9-2072-4edd-a8a9-5c5eba530420")
 	(paper "A4")
+	(title_block
+		(title "Power Switch - Main")
+		(date "2025-11-15")
+		(rev "B1")
+		(company "Les Opossums - Gabriel DE MELO SOUZA")
+	)
 	(lib_symbols
 		(symbol "Connector:Conn_01x02_Pin"
 			(pin_names
@@ -6096,10 +6102,10 @@
 			)
 		)
 		(pin "2"
-			(uuid "faa58a2a-cefb-4ba0-84eb-112a7dc70144")
+			(uuid "faa58a2a-cefb-4ba0-84eb-112a7dc70145")
 		)
 		(pin "1"
-			(uuid "74b4761b-849d-4416-ba51-1bede8bf08f1")
+			(uuid "74b4761b-849d-4416-ba51-1bede8bf08f2")
 		)
 		(instances
 			(project ""
@@ -9802,10 +9808,10 @@
 			)
 		)
 		(pin "2"
-			(uuid "faa58a2a-cefb-4ba0-84eb-112a7dc70144")
+			(uuid "faa58a2a-cefb-4ba0-84eb-112a7dc70146")
 		)
 		(pin "1"
-			(uuid "74b4761b-849d-4416-ba51-1bede8bf08f1")
+			(uuid "74b4761b-849d-4416-ba51-1bede8bf08f3")
 		)
 		(instances
 			(project ""
@@ -10513,10 +10519,10 @@
 			)
 		)
 		(pin "2"
-			(uuid "faa58a2a-cefb-4ba0-84eb-112a7dc70144")
+			(uuid "faa58a2a-cefb-4ba0-84eb-112a7dc70147")
 		)
 		(pin "1"
-			(uuid "74b4761b-849d-4416-ba51-1bede8bf08f1")
+			(uuid "74b4761b-849d-4416-ba51-1bede8bf08f4")
 		)
 		(instances
 			(project ""
@@ -11235,10 +11241,10 @@
 			)
 		)
 		(pin "2"
-			(uuid "faa58a2a-cefb-4ba0-84eb-112a7dc70144")
+			(uuid "faa58a2a-cefb-4ba0-84eb-112a7dc70148")
 		)
 		(pin "1"
-			(uuid "74b4761b-849d-4416-ba51-1bede8bf08f1")
+			(uuid "74b4761b-849d-4416-ba51-1bede8bf08f5")
 		)
 		(instances
 			(project ""
@@ -12038,10 +12044,10 @@
 			)
 		)
 		(pin "2"
-			(uuid "faa58a2a-cefb-4ba0-84eb-112a7dc70144")
+			(uuid "faa58a2a-cefb-4ba0-84eb-112a7dc70149")
 		)
 		(pin "1"
-			(uuid "74b4761b-849d-4416-ba51-1bede8bf08f1")
+			(uuid "74b4761b-849d-4416-ba51-1bede8bf08f6")
 		)
 		(instances
 			(project ""

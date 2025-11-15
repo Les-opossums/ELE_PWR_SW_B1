@@ -1,9 +1,16 @@
-# Carte lidar - opossum 2025
-![Alt text](media/carte_power.png "carte_power")
+# Power Switch Board - B1
+![main](Photos/ELE_PWR_SW_B1 - Main.jpg)
 
-Cette carte à pour but de faire le dispatch de l'alimentation du robot.
+## Description
+This board serves as a power switch for the robot power supplies. It uses the battery as an input (24 V).
+Two discrete inputs control the activation of the outputs: emergency stop (STOP) and on/off (ON).
 
-Elle gère 3 types de sorties : 
-- 4 sorties pour les moteurs du robot. Elle sont pilotées par le bouton on/off du robot et par l'arrêt d'urgence. Chaque sortie est indépendante (1 mosfet par sortie).
-- 3 sorties similaires pilotées par arrêt d'urgence et on/off. Elle doivent servire pour les éléments mobile du robot.
-- 3 sorties uniquement pilotées par le bouton on/off. Elles sont réservées pour la partie logique du robot.
+All outputs are commanded by the ON input, while others are also subject to the STOP. The outputs are listed below.
+- ON + STOP:
+    - Motors 1, 2, 3, and 4.
+    - Other loads (3 connectos), reserved for actuators (moving parts of the robot).
+- ON only: Non stop loads (3 connectors), reserved for robot logics.
+
+Every output has a corresponding LED for debug. Motors 1 and 2 are connected to one fuse, Motors 3 and 4 to another one. Both other outputs have reserved fuses.
+
+![ortho](Photos/ELE_PWR_SW_B1 - Ortho.jpg)
